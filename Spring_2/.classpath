@@ -25,5 +25,15 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/6dc192c7f93ec1853f70d59d8a6dcf94eb42866/lombok-1.18.16.jar" sourcepath="C:/Users/LENOVO/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/d748b7f84f0e1afa7b03d0205ab16302f23d126c/lombok-1.18.16-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.1/4e1e1d1c6b5a00597162db84132414c409bcf615/spring-web-5.3.1.jar" sourcepath="C:/Users/LENOVO/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.1/55dd8f0811010af99e76fb69981a955b41c09a8e/spring-web-5.3.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

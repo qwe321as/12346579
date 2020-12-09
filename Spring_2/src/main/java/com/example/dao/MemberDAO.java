@@ -10,4 +10,9 @@ public interface MemberDAO {
 
 	public int selectCount(String id) throws Exception;
 	
+	public int selectCountPW(String pw) throws Exception;
+
+	public MemberVO selectOneMember(String id) throws Exception;
+
+	
 }

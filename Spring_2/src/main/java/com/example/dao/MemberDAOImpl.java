@@ -23,9 +23,19 @@ public class MemberDAOImpl implements MemberDAO {
 		return sqlSession.selectList(Namespace+".selectMember");
 	}
 	@Override
+	public MemberVO selectOneMember(String id) throws Exception {
+		
+		return sqlSession.selectOne(Namespace+".selectOneMember",id);
+	}
+	@Override
 	public int selectCount(String id) throws Exception {
 		
 		return sqlSession.selectOne(Namespace+".selectCount",id);
+	}
+	@Override
+	public int selectCountPW(String pw) throws Exception {
+		
+		return sqlSession.selectOne(Namespace+".selectCountPW",pw);
 	}
 
 }

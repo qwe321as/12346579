@@ -6,9 +6,17 @@
 <mapper namespace="com.example.mapper.memberMapper">
 
 	<select id="selectMember" resultType="memberVO">
-		SELECT ID, PW ,NAME FROM member
+		SELECT ID, PW ,NAME FROM
+		member
+	</select>
+	<select id="selectOneMember" resultType="memberVO" parameterType="String">
+		SELECT ID, PW ,NAME FROM member where id = #{id}
 	</select>
 	<select id="selectCount" resultType="int" parameterType="String">
-	select count(*) from member where id = #{id}
-</select>
+		select count(*) from member where id = #{id}
+	</select>
+	<select id="selectCountPW" resultType="int"
+		parameterType="String">
+		select count(*) from member where pw = #{pw}
+	</select>
 </mapper>
